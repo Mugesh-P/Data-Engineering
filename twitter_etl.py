@@ -6,10 +6,10 @@ import s3fs
 
 def run_twitter_etl():
 
-    access_key = ""
-    access_secret = ""
-    consumer_key = ""
-    consumer_secret = ""
+    access_key = "ACCESS KEY"
+    access_secret = "ACCESS SECRET"
+    consumer_key = "CONSUMER KEY"
+    consumer_secret = "CONSUMER SECRET"
 
     auth = tweepy.OAuthHandler(access_key, access_secret)
     auth.set_access_token(consumer_key, consumer_secret)
